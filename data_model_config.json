@@ -1,0 +1,12 @@
+{"name":"Name",
+"bday":"DateTime",  
+"ssn":"Exact",   
+"rssd_id":"Exact",   
+"duns":"Exact",  
+"country":"String",   
+"city":"String",
+"state":"ShortString",
+"zip":"String", 
+"phone":"String", 
+"address1":"String",
+"address2":"Text"}
