@@ -8,5 +8,8 @@ MDM system (NULLs, typographical errors, etc.). The goal with these records was 
 to the same entity and to see if it would be possible that despite the data quality issues one can identify groupings of records that
 correspond to the same entity.
 
-Second, I leveraged python's dedupe to train a classification model as well as a clustering model on this task, ultimately achieving
-majority cluster identification of 71%.
+Second, I leveraged python's dedupe to train a classification model as well as a clustering model on this task. For this, there was no
+support for training models off of a csv file, so I created a function to do so.
+
+And finally, I created a means of evaluating how well the clustering performed. Ultimately, this initial POC achieved majority cluster 
+identification rate of 71%.
