@@ -5,7 +5,7 @@ In this repository, I explore how this deterministic logic can be supplemented w
 Data quality and integrity issues can lead to two major problems when records are put through the match and merge process:
 overmerging (records that belong to different entities are merged) and undermerging (records that refer to the same entity are not 
 matched). Comparing the results of a deterministic match and merge with the results of the following machine learning approach 
-could help identify both of these two.
+could help identify both of these issues.
 
 First, I created a script that leverages pydbgen to randomly generate records (name, address*, identifiers, etc.) with data quality issues that one might observe in a
 MDM system such as NULLs, typographical errors, etc. (generate_MDM_data.py). The goal with these records was to create multiple records that in reality correspond
